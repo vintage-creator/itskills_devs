@@ -1,427 +1,445 @@
-
+<!-- DESKTOP DOCUMENT -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="../css/headerFooter.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+    <script
+      src="https://kit.fontawesome.com/63cdd7bf48.js"
+      crossorigin="anonymous"
+    ></script>
     <title>HOME - ITSkillsDevs</title>
     <meta
       name="description"
       content="ITSkillsDev is a creative startup comprising of top notch software engineers that help businesses around the world to build useable, accessible and bug-free digital products. At ITSkillsDevs, we ensure that we balance client goals while building lasting experiences with our products."
     />
-    <meta name="author" content="Israel Abazie" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
+    <!-- Header Goes Here -->
     <header>
-        <div id="header-div" style="background-color: rgb(31, 57, 112); padding: 3%">
-            <a href="#"><img src="./images/facebook.svg" id="img1" style="width:2.5%; margin-right: 1%;" /></a>
-            <a href="#"><img src="./images/twitter.svg" id="img2" style="width:4.5%; margin-right: 1%;"/></a>
-            <a href="#"><img src="./images/linkedin.png" id="img3" style="width:4.5%; margin-right: 1%;"/></a>
-           <a href="#"> <img src="./images/pinterest.svg" id="img4" style="width:4.5%; margin-right: 1%;"/></a>
-            <a href="#"><img src="./images/google.svg"  id="img5" style="width: 4.2%; margin-right: 1%;"/></a>
-          </div>
+      <div class="topBar">
+        <div class="socials">
+          <span class="socials-facebook icons">
+            <i class="fa-brands fa-facebook-f"></i>
+          </span>
+          <span class="socials-twitter icons">
+            <i class="fa-brands fa-twitter"></i>
+          </span>
+          <span class="socials-linkedln icons">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </span>
+          <span class="socials-pinterest icons">
+            <i class="fa-brands fa-pinterest"></i>
+          </span>
+          <span class="socials-gooplePlus icons">
+            <i class="fa-brands fa-google-plus-g"></i>
+          </span>
+        </div>
+        <div class="contactInfo">
+          <span class="phone">
+            <i class="fa-solid fa-phone-volume"></i>
+            +(012) 345 6789
+          </span>
+          <span class="email">
+            <i class="fa-solid fa-comments"></i>
+            info@ourproject.com
+          </span>
+        </div>
+      </div>
       <nav>
-        <img src="./images/ITSkillsDev.svg" alt="logo"id="nav-logo" style="width:30%; padding: 2%; margin: 3% 0;">
-        <span id="hamburger"><img src="./images/icon-hamburger 1.svg" style="margin: 0% 0;" /> </span>
-        
-
-        <ul id="ul" >
-          <li id="ul-l1">
-            <img src="./images/ITSkillsDev.svg" alt="logo" class="ul-logo"/>
-          </li>
-          <li id="ul-l2"><img src="./images/Vector (2).svg" id="close" /></li>
-          <li class="pages" id="page-1"><a href="./index.html"><span>HOME</span></a></li>
-          <li class="pages" id="about">ABOUT US <img src="./images/dropdown.svg" id="dropdown" /><img src="./images/drop down.png" alt="drop down icon" style="display:none;" id="dropicon"/>
-            <ol style="display:none">
-              <li class="pages">COMPANY</li>
-              <li class="pages">OUR TEAM</li>
-              <li class="pages">NEWS</li>
-              <li class="pages">INVESTORS</li>
-           </ol>
-         </li>
-            <li class="pages"><a href="./services.html" >SERVICES</a></li>
-            <li class="pages"><a href="./gallery.html">GALLERY</a></li>
-            <li class="pages"><a href="./pricing.html">PRICING</a></li>
-            <li class="pages"><a href="./contact.html">CONTACT</a></li>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkBtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <span class="logo"><img src="./images/ITSkillsDev.svg" style="width:15%; margin-left: -3%; margin-top: 1.7%" alt="logo"></span>
+        <ul>
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
-            
-            
-          
-        
       </nav>
     </header>
+
+    <!-- Main Body -->
     <main>
-      <section id="hero_img">
-        <div class="mySlides fade">
-            <img
-              src="./images/Frame 3.svg"
-              class="container-img"
-              style="width: 100%; height: 100%;"
-            />
+      <section class="banner"></section>
+      <section class="chooseU-container">
+        <div class="choose-us-heading"><h1>WHY CHOOSE US</h1></div>
+        <div class="chooseUs">
+          <div class="choose-us-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              dicta possimus. Pariatur quisquam ea incidunt expedita reiciendis
+              minima qui dolorem! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Aspernatur non nobis inventore perspiciatis nam
+              corrupti et repellendus modi provident debitis?
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+              soluta id praesentium at cumque, architecto, magnam modi corporis
+              rem fugiat asperiores aut distinctio maiores recusandae, nobis
+              nam? Laboriosam, incidunt quis.
+            </p>
+            <ul>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>Lorem ipsum dolor sit amet</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>consectetur adipisicing elit</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>Pariatur quisquam ea</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>Pariatur quisquam ea incidunt</span>
+              </li>
+            </ul>
+            <div><button>Learn More</button></div>
           </div>
-  
-          <div class="mySlides fade">
-            <img
-              src="./images/Frame 4.svg"
-              class="container-img"
-              style="width: 100%; height: 100%;"
-            />
-          </div>
-  
-          <div class="mySlides fade">
-            <img
-              src="./images/Group 20.svg"
-              class="container-img"
-              style="width: 100%; height: 100%;"
-            />
-          </div>
+          <div class="choose-us-image"></div>
         </div>
-        <br />
-  
-        <div style="text-align: center" >
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
-      
       </section>
-      <section class="section" >
-        <div id="section-div-1">
-          <h1 style="text-align:center; font-size: 1.8em;">WHY CHOOSE US</h1>
-        <p id="section-p-1" style="text-align: center;">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non magni at
-          aliquid sint in earum, accusantium voluptates vitae nulla doloribus
-          dolores libero consequatur sit a, nesciunt debitis ullam facere error!
-          Rerum placeat voluptas odit. Odit exercitationem deserunt ad
-          distinctio rem minus natus at laboriosam, deleniti, perferendis quos
-          voluptatibus dignissimos fugiat? Porro, ut. Obcaecati eligendi fugiat
-          cupiditate ex. Qui, fugit iusto? Quos libero aperiam debitis
-          architecto quae dicta corrupti expedita eaque magnam quam cupiditate
-          sequi, in non dolorem dolorum, praesentium maiores voluptas nulla enim
-          ad. Dolore vel aliquam rerum excepturi aperiam. Vero illo tempora ipsa
-          provident nesciunt maiores, iure repellat repudiandae nobis
-          consequatur quasi tempore molestias esse perspiciatis dolores, minima
-          blanditiis non alias quia? Pariatur sit et reiciendis nihil, totam ex?
-          Commodi, magnam blanditiis, tempore facilis ducimus ipsum repellendus
-          exercitationem expedita dolores consectetur, repellat obcaecati non
-          pariatur veniam illum voluptatibus.
-        </p>
-        </div>
-        <div id="div-flex">
-          <div class="bullets">
-            <p>
-              <img src="./images/Vector (7).png" style="padding-right:3%;" /><span style="margin: top -8%;">Lorem ipsum dolor,
-                 adipisicing elit.</span>
-            </p>
-            <p>
-              <img src="./images/Vector (7).png" style="padding-right:3%;" /><span>Lorem ipsum dolor, sit amet
-                 elit.</span>
-            </p>
-            <p>
-              <img src="./images/Vector (7).png" style="padding-right:3%;"/> <span>Magnam, molestias in
-                consequuntur.</span>
-            </p>
-            <p>
-              <img src="./images/Vector (7).png" style="padding-right:3%;"/><span>Commodi asperiores eligendi
-                labore.</span>
-            </p>
-            <button style="background-color:#43ca83; color:white; font-weight:600; padding: 6%; border: 2px solid #43ca83; font-size: 1.2rem; margin-top: 3%;">LEARN MORE</button>
-          </div>
-          <div data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="800"
-          data-aos-easing="ease-in-out">
-            <img id="section-img" src="./images/about1.jpg" alt="about" style="width: 90%; padding-left: 3%; padding-right: 3%;" />
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="800"
-        data-aos-easing="ease-in-out">
-          <h2 style="text-align: center; font-size: 1.8em; ">OUR SERVICES</h2>
-          <p id="section-p-2" style="text-align: center;">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repudiandae corporis vitae officia. Magnam, molestias in soluta
-            consequuntur at, a aperiam repellat commodi asperiores eligendi
-            labore ducimus minima. Natus, commodi enim.
+
+      <!-- SERVICES SECTION -->
+      <section class="services">
+        <div class="services-heading">
+          <h1>OUR SERVICES</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            cupiditate, quidem nulla consectetur sit nemo quia ad animi totam
+            consequatur porro possimus fugiat! Vel odio amet earum atque natus.
           </p>
         </div>
-        <div >
-          <div id="main-div-flex">
-            <div class="main-div" id="main-div-1" style="border: 1px solid #43ca83; padding: 15%; width: 55%; margin:0 auto;" data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="800"
-            data-aos-easing="ease-in-out">
-              <img src="./images/Group 9.png" style="width:28%;  margin-left: 38%" />
-              <h4 style="text-align:center; font-size: 1.5em; margin: -5% 0">Finance</h4><hr style="width: 25%; margin-top: 8%; border-color: #43ca83">
-              <p style="font-weight:300; text-align: center;">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repudiandae corporis vitae officia.
-              </p>
+        <div class="services-content">
+          <div class="services-one serviceItem">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
             </div>
-            <div class="main-div" id="main-div-2" style="border: 1px solid #43ca83; padding: 15%; width: 55%; margin:6% auto;" data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="800"
-            data-aos-easing="ease-in-out">
-              <img src="./images/Group 10.png" alt="image" style="width:28%; margin-left: 38%;"/>
-              <h4 style= "font-size: 1.5em; text-align:center; margin: -5% 0">Training</h4><hr style="width: 25%; margin-top: 8%; border-color: #43ca83">
-              <p style="font-weight:300; text-align: center;">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repudiandae corporis vitae officia.
-              </p>
+            <h2>Consulting</h2>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, est totam quo blanditiis, corrupti enim quis rem ipsa
+              inventore suscipit adipisci?
+            </p>
+          </div>
+          <div class="services-two serviceItem">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                />
+              </svg>
             </div>
-            <div class="main-div"  id="main-div-3" style="border: 1px solid #43ca83; padding: 15%; width: 55%; margin:0 auto;" data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="800"
-            data-aos-easing="ease-in-out">
-              <img src="./images/Group 11.png" alt="image" style="width:28%;  margin-left: 38%" />
-              <h4 style= "font-size: 1.5em; text-align:center; margin: -5% 0">Development</h4><hr style="width: 25%; margin-top: 8%; border-color: #43ca83">
-              <p style="font-weight:300; text-align: center;">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repudiandae corporis vitae officia.
-              </p>
+            <h2>Finance</h2>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, est totam quo blanditiis, corrupti enim quis rem ipsa
+              inventore suscipit adipisci?
+            </p>
+          </div>
+          <div class="services-three serviceItem">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+                />
+              </svg>
+            </div>
+            <h2>Development</h2>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, est totam quo blanditiis, corrupti enim quis rem ipsa
+              inventore suscipit adipisci?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- OUR PROCESS -->
+      <section class="processes">
+        <div class="processes-heading">
+          <h1>OUR PROCESS</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            cupiditate, quidem nulla consectetur sit nemo quia ad animi totam
+            consequatur porro possimus fugiat! Vel odio amet earum atque natus.
+          </p>
+        </div>
+        <div class="processes-content">
+          <!-- <div class="processes-one processesItem"></div>
+          <div class="processes-two processesItem"></div>
+          <div class="processes-three processesItem"></div> -->
+          <div class="fourth_div">
+            <div class="image_container">
+              <div class="image_one">
+                <div class="inner_text">
+                  Material design
+                </div>
+              </div>
+              <div class="image_text">
+                ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                porro consequatur aliquam, incidunt Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Dolores quae porro consequatur
+                aliquam, incidunt
+              </div>
+            </div>
+            <div class="image_container">
+              <div class="image_two">
+                <div class="inner_text">
+                  Bootstrap
+                </div>
+              </div>
+              <div class="image_text">
+                ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                porro consequatur aliquam, incidunt Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Dolores quae porro consequatur
+                aliquam, incidunt
+              </div>
+            </div>
+            <div class="image_container">
+              <div class="image_three">
+                <div class="inner_text">
+                  HTML5/CSS3
+                </div>
+              </div>
+              <div class="image_text">
+                ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                porro consequatur aliquam, incidunt Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Dolores quae porro consequatur
+                aliquam, incidunt
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section" style="background-color: rgb(27, 50, 99); margin-top: 15%; padding-bottom: 20%;">
-        <div id="section-id" data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="800"
-        data-aos-easing="ease-in-out">
-          <h2 style="text-align: center; font-size: 1.8em; color: white">OUR PROCESS</h2>
-          <div id="section-id">
-            <div>
-              <p id="section-p-3" style="text-align: center; color: white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                deleniti, voluptates labore quia fugit dolores nobis aperiam numquam
-                dignissimos culpa rerum unde enim provident inventore odio libero ad
-                a velit.
-              </p>
-            </div>
-            <div>
-              <div data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="800"
-              data-aos-easing="ease-in-out">
-                <div id="background-img1" style="width:90%; margin: 0 auto;" >
-                  <span id="div-span-1" style="background-color: rgba(114, 131, 170, 0.267); padding-left: 4%; padding-right: 57.8%; color:#43ca83; font-size: 1.6em;">Designing</span>
-                </div>
-                <p style="background-color: white" class="background-p">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dignissimos perspiciatis ipsam laboriosam quo fuga harum,
-                  voluptate amet, provident quod tenetur quidem eius dolore,
-                  officiis neque asperiores quos qui. A, autem.
-                </p>
-              </div>
-            </div>
-            <div style="margin: 5% 0" data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="800"
-            data-aos-easing="ease-in-out">
-              <div id="background-img2"  style="width:90%; margin: 0 auto;">
-                <span id="div-span-2" style="background-color: rgba(114, 131, 170, 0.267); padding-left: 4%; padding-right: 45%; color:#43ca83; font-size: 1.6em;"
-                  >Development</span
-                >
-              </div>
-              <p style="background-color: white" class="background-p">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dignissimos perspiciatis ipsam laboriosam quo fuga harum,
-                voluptate amet, provident quod tenetur quidem eius dolore,
-                officiis neque asperiores quos qui. A, autem.
-              </p>
-            </div>
-            <div data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="800"
-            data-aos-easing="ease-in-out">
-              <div id="background-img3"  style="width:90%; margin: 0 auto;">
-                <span id="div-span-3" style="background-color: rgba(21, 22, 26, 0.527); padding-left: 4%; padding-right: 68%; color:#43ca83; font-size: 1.6em;">Quality</span>
-              </div>
-              <p style="background-color: white" class="background-p">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dignissimos perspiciatis ipsam laboriosam quo fuga harum,
-                voluptate amet, provident quod tenetur quidem eius dolore,
-                officiis neque asperiores quos qui. A, autem.
-              </p>
-            </div>
-          </div>
-          </div>
-      </section>
-      <section class="section">
-        <div>
-          <h2 style="text-align: center; font-size: 1.8em;" data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="800"
-          data-aos-easing="ease-in-out">OUR BUSINESS</h2>
-          <p id="section-p-4" style="text-align: center;" data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="800"
-          data-aos-easing="ease-in-out">
-            Sit amet consectetur adipisicing elit. Impedit tempore recusandae
-            aliquid ratione veniam vel ad consectetur perferendis optio, ducimus
-            aliquam est quaerat, beatae laborum placeat provident debitis
-            officiis.
+      <!-- OUR BUSINESS -->
+      <section class="our-business">
+        <div class="our-business-heading">
+          <h1>OUR BUSINESS</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            cupiditate, quidem nulla consectetur sit nemo quia ad animi totam
+            consequatur porro possimus fugiat! Vel odio amet earum atque natus.
           </p>
-          <img src="./images/about.jpg" id="img-section" alt="image" style="width: 90%; padding-left: 4.3%; padding-right: 3%;" data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="800"
-          data-aos-easing="ease-in-out" />
-          <p id="section-p-5" data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="900"
-          data-aos-easing="ease-in-out">
-            ITSkillsDev is a dolore mollitia eos expedita minima non amet modi
-            repellendus earum doloribus iste vero necessitatibus sequi laborum
-            magni eius blanditiis quos. Cupiditate et magnam explicabo maiores,
-            soluta debitis dicta quisquam quaerat eaque facilis eum beatae
-            ratione doloribus iure illum. Perferendis atque, aperiam veritatis
-            possimus maxime excepturi dolores quis animi aspernatur natus
-            numquam quo, modi officia repellendus praesentium saepe! Fugiat iure
-            consequatur exercitationem eos est numquam quam voluptatem, veniam
-            nemo id maxime eligendi quas accusamus nulla corporis itaque
-            consectetur? Praesentium quidem voluptates omnis obcaecati nam
-            laudantium soluta ullam veniam et velit cum accusantium dolorum,
-            nisi labore nemo deserunt voluptas, laboriosam adipisci doloremque
-            libero sunt rem rerum sapiente placeat! Repudiandae! Aperiam, hic.
-            
-          </p>
+        </div>
+        <div class="our-business-content">
+          <div class="our-business-image our-businessItem"></div>
+          <div class="our-business-writeUp our-businessItem">
+            <p>
+              Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Curabitur aliquet quam id dui
+              posuere blandit. Donec sollicitudin molestie malesuada.
+              Pellentesque in ipsum id orci porta dapibus. Vivamus suscipit
+              tortor eget felis porttitor volutpat.
+            </p>
+            <p>
+              Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Curabitur aliquet quam id dui
+              posuere blandit. Donec sollicitudin molestie malesuada.
+              Pellentesque in ipsum id orci porta dapibus. Vivamus suscipit
+              tortor eget felis porttitor volutpat.
+            </p>
+            <p>
+              Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Curabitur aliquet quam id dui
+              posuere blandit. Donec sollicitudin molestie malesuada.
+              Pellentesque in ipsum id orci porta dapibus. Vivamus suscipit
+              tortor eget felis porttitor volutpat.
+            </p>
+          </div>
         </div>
       </section>
     </main>
-    <footer style="background-color: rgb(27, 50, 99)">
-      <div class="footer">
-        <div>
-          <h5 style="color: #43ca83">Our Contact</h5>
-          <div style="margin-top:-6%">
-            <p>ITSkillsDev Inc</p>
-            <p>11, Adekoya Estate off College Road</p>
-            <p>Ogba, Ikeja Lagos.</p>
-            <p>+234(0)706-573-7817</p>
-            <p>info@itskillsdev.com</p>
-          </div>
-          <br />
+
+    <!-- Footer Goes Here -->
+    <footer>
+      <div class="footerContent">
+        <div class="content Content-One">
+          <h5>Our Contact</h5>
+          <p>
+            Bootstrap company Inc
+            <br />
+            JC Main Road, Near Silnile tower
+            <br />
+            Pin-21542 NewYork US.
+          </p>
+          <p>
+            (123) 456-789 - 1255-12584
+            <br />
+            email@domainname.com
+          </p>
         </div>
-        <div id="display">
-          <h5 style="color: #43ca83" id="quicklinks">Quick Links</h5>
-          <ul id="quick-ul" style="margin-top:-8%">
-            <li><a href="#">Latest Events</a></li>
-            <li><a href="#">Terms and conditions</a></li>
-            <li><a href="#">Privacy policy</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Contact Us</a></li>
+        <div class="content Content-Two">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="">Latest Events</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Contact Us</a></li>
           </ul>
         </div>
-        <div id="display-1">
-          <h5 style="color: #43ca83">Latest Posts</h5>
-          <ul style="margin-top:-8%">
-            <li>
-              <a href="#"
-                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                >Magni dicta repellat dolorem qui quod, totam error velit
-                tenetur.</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                >Laudantium est rem nobis quas, corrupti repudiandae hic qui ad
-                porro. Ex, officiis voluptates.</a
-              >
-            </li>
-            <li>
-              <a href="#">Architecto sed voluptatem reiciendis? Totam.</a>
-            </li>
-            <li>
-              <a href="#"
-                >Ut illo vel minima quos adipisci laboriosam laborum saepe
-                molestias praesentium!</a
-              >
-            </li>
-          </ul>
+        <div class="content Content-Three">
+          <h5>Latest Posts</h5>
+          <p>
+            <a href="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </a>
+          </p>
+          <p>
+            <a href="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </a>
+          </p>
+          <p>
+            <a href="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </a>
+          </p>
         </div>
-        <div>
-          <h5 style="color: #43ca83">Recent News</h5>
-          <ul style="margin-top:-8%">
-            <li>
-              <a href="#"
-                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                >Magni dicta repellat dolorem qui quod, totam error velit
-                tenetur.</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                >Laudantium est rem nobis quas, corrupti repudiandae hic qui ad
-                porro. Ex, officiis voluptates.</a
-              >
-            </li>
-            <li>
-              <a href="#">Architecto sed voluptatem reiciendis? Totam.</a>
-            </li>
-            <li>
-              <a href="#"
-                >Ut illo vel minima quos adipisci laboriosam laborum saepe
-                molestias praesentium!</a
-              >
-            </li>
-          </ul>
+        <div class="content Content-Four">
+          <h5>Recent News</h5>
+          <p>
+            <a href="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </a>
+          </p>
+          <p>
+            <a href="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </a>
+          </p>
+          <p>
+            <a href="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </a>
+          </p>
         </div>
       </div>
-      <section style="background-color: rgb(31, 57, 112)">
-        <div class="footer-section">
-          <div>
-            &copy; ITSkillsDev Inc 2022. All Rights Reserved. Powered by
-            <a href="#" style="color: #43ca83">ITSkillsCenter.</a>
-          </div>
-          <div id="footer-img">
-            <img src="./images/facebook.svg" />
-            <img src="./images/twitter.svg" />
-            <img src="./images/linkedin.png" />
-            <img src="./images/pinterest.svg" />
-            <img src="./images/google.svg" />
-          </div>
-          <div style="margin-top: 10%; margin-left: 85%; margin-bottom: -10%; position: sticky"><img src="./images/go up.png" id="go-up" alt="go up"></div>
+      <div class="footerCopyRight">
+        <div class="copyRight">
+          <p>
+            © 2022 All right reserved. Template By
+            <span>ITSkillsDev | Pelz | Feliz | Dara | Vintage</span>
+          </p>
         </div>
-      </section>
+        <div class="socialsFooter">
+          <span class="socials-facebook icons">
+            <i class="fa-brands fa-facebook-f"></i>
+          </span>
+          <span class="socials-twitter icons">
+            <i class="fa-brands fa-twitter"></i>
+          </span>
+          <span class="socials-linkedln icons">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </span>
+          <span class="socials-pinterest icons">
+            <i class="fa-brands fa-pinterest"></i>
+          </span>
+          <span class="socials-gooplePlus icons">
+            <i class="fa-brands fa-google-plus-g"></i>
+          </span>
+        </div>
+      </div>
     </footer>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script type="text/javascript" src="./javascript/main.js"></script>
   </body>
 </html>
-
 
